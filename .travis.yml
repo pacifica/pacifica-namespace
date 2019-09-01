@@ -27,6 +27,7 @@ jobs:
       on:
         tags: true
   - python: 2.7
+    script: skip
     deploy:
       skip_cleanup: true
       provider: pypi
