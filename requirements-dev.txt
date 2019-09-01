@@ -1,7 +1,3 @@
--r requirements.txt
-coverage
 pep257
 pre-commit
-pylint
-pytest
-setuptools
+pylint<2.0
